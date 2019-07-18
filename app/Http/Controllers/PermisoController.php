@@ -11,7 +11,7 @@ class PermisoController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index($nombre)
+    public function index()
     {
         return view('permiso');
     }
